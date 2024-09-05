@@ -17,7 +17,6 @@ def create_cd_account(cd_balance, cd_interest, cd_maturity):
     # Create an instance of the `Account` class and pass in the balance and interest parameters.
     #  Hint: You need to add the interest as a value, i.e, 0.
     # ADD YOUR CODE HERE
-    from Account import Account
     cd_account = Account(cd_balance, cd_interest)
 
     # Calculate interest earned
