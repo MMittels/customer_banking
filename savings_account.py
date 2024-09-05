@@ -35,14 +35,11 @@ def create_savings_account(savings_balance, savings_interest, savings_maturity):
     # Pass the updated_balance to the set balance method using the instance of the SavingsAccount class.
     # ADD YOUR CODE HERE
     savings.set_balance(updated_savings_balance)
-    print(savings.balance)
 
     # Pass the interest_earned to the set interest method using the instance of the SavingsAccount class.
     # ADD YOUR CODE HERE
     savings.set_interest(interest_earned)
-    print(savings.interest)
 
     # Return the updated balance and interest earned.
     return updated_savings_balance, interest_earned
- # ADD YOUR CODE HERE
     
