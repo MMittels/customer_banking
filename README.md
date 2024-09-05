@@ -11,3 +11,16 @@ Four python codes are used to achieve the customer banking system and demonstrat
   - Account.py - Account.py creates the Account class and allows the user to set balances and interest in Account instances.
 
 ## Demonstration
+
+### Savings Prompt
+The user is first prompted for the savings account information - account balance, APR, and months of maturity (below). After entering the information the code will return the amount earned in interst and updated balance.
+
+![Alt text](/Module3_SavingsPrompt.png?raw=true "First Menu")
+
+### CD Prompt
+The user is them prompted for the same information for the CD account. After entering the information the code will return the amount earned in interst and updated balance (below).
+
+![Alt text](/Module3_CDPrompt.png?raw=true "First Menu")
+
+This completes the program.
+ 
